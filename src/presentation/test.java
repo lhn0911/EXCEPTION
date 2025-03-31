@@ -9,5 +9,8 @@ public class test {
         Scanner sc = new Scanner(System.in);
         int a = Validator.ValidatorInt(sc);
         float b = Validator.ValidatorFloat(sc);
+        Double c = Validator.ValidatorDouble(sc);
+        String d = Validator.ValidatorString(sc);
+        Boolean e = Validator.ValidatorBoolean(sc);
     }
 }
